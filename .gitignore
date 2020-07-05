@@ -1,0 +1,6 @@
+# virtual env
+/venv
+/denv
+
+# Cache
+/movierater/__pycache__
