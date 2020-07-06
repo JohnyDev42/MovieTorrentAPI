@@ -6,7 +6,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 class Movie(models.Model):
     title = models.CharField(max_length=32)
     description = models.TextField(max_length=360)
-    
+    avatar = models.ImageField(upload_to='',null=True)
 
     def __str__(self):
         return self.title
